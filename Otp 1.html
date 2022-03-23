@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Secure The Link</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="design.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div class="head12">
+  <h2>Meeting Id Generator</h2>
+</div>
+
+
+<form action="/action_page.php" method="post">
+  <div class="imgcontainer">
+    <img src="img_avatar2.png" alt="Avatar" class="avatar">
+    <h4 class="text1">Your meeting is secured</h4>
+  </div>
+
+  <div class="container">
+    <label for="uname"><b>Name</b></label>
+    <input type="text" placeholder="Enter Username" name="uname" size="30" required>
+
+    <label for="Mobile"><b>Mobile number</b></label>
+    <input type="text" placeholder="Without(+91)" name="Mob" size="30" required>
+
+    <label for="Email"><b>Email id</b></label>
+    <input type="text" placeholder="Example@gmail.com" name="gmail" size="30" required>
+        
+    <button type="submit">generate otp</button>
+    <label>
+      <input type="checkbox" checked="checked" name="remember"> accept terms and conditions
+    </label>
+  </div>
+
+  <div class="container" style="background-color:#f1f1f1">
+    <button type="button" class="cancelbtn">Cancel</button>
+    <span class="mob">Forgot <a href="#">password?</a></span>
+  </div>
+</form>
+
+</body>
+</html>
